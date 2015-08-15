@@ -1,4 +1,4 @@
-package ventanaconstring;
+package ventanaconfiguras2d;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -17,7 +17,7 @@ public class Ventana extends JFrame {
         setLocation(anchoPantalla/4, alturaPantalla/4);
         Image miIcono = miPantalla.getImage("src/graficos/Seta.png");
         setIconImage(miIcono);
-        setTitle("Ventana con un string");
+        setTitle("Ventana con figuras 2D");
         setVisible(true);
         Lamina miLamina = new Lamina();
         add(miLamina);
